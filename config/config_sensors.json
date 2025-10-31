@@ -44,23 +44,18 @@
   */
   "sensors": {
     // IMU config
-    "imu_acc_noise": 0.05,
-    "imu_gyro_noise": 0.02,
+    "imu_acc_noise": 0.025,
+    "imu_gyro_noise": 0.01,
     "imu_int_noise": 0.001,
     "imu_bias_noise": 1e-5,
     // LiDAR config
     "global_shutter_lidar": false,
     "T_lidar_imu": [
-      0.006,
-      -0.012,
-      0.008,
-      0.0,
-      0.0,
-      0.0,
-      1.0
+      -0.000001831, 5.603020000, -0.961000000,
+      0.000000000, 0.000000000, -0.707106666, 0.707106897
     ],
     "intensity_field": "intensity",
-    "ring_field": "",
+    "ring_field": "channel",
     // LiDAR per-point time settings
     "autoconf_perpoint_times": true,
     "autoconf_prefer_frame_time": false,

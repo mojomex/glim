@@ -52,6 +52,6 @@
     "use_isam2_dogleg": false,
     "isam2_relinearize_skip": 1,
     "isam2_relinearize_thresh": 0.1,
-    "num_threads": 2
+    "num_threads": 10
   }
 }
